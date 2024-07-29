@@ -9,7 +9,7 @@ import PassKeyModal from "@/components/PassKeyModal";
   return (
     <div className="flex h-screen bg-dark-300 max-h-screen text-white">
       {isAdmin && <PassKeyModal />}
-      <section className="remove-scrollbar container my-auto">
+      <section className="remove-scrollbar container">
         <div className="sub-container max-w-[496px]">
           <Image
             src="assets/icons/logo-full.svg"
