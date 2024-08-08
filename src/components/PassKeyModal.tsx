@@ -58,6 +58,8 @@ const PassKeyModal = () => {
     localStorage.setItem("accessKey", encryptedKey);
 
     setOpen(false);
+    console.log('Passkey Validation');
+    router.push('/admin')
   } else {
     setError("Invalid passkey. Please try again.");
   }
